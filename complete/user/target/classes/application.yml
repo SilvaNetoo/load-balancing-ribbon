@@ -9,5 +9,5 @@ say-hello:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: localhost:8090,localhost:9092,localhost:9999
+    listOfServers: localhost:8090,localhost:9092,localhost:9999,localhost:5000,localhost:6000
     ServerListRefreshInterval: 15000
